@@ -1,0 +1,27 @@
+.container {
+    background-color: yellow;
+
+
+}
+
+table{
+    margin: auto;
+}
+
+th {
+    background-color: red;
+
+
+}
+
+td {
+    background-color: white;
+    padding-left: 10px;
+
+}
+
+.orange {
+    background-color: orange;
+
+
+}
