@@ -1,0 +1,26 @@
+#container {
+    border: 1px black solid;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+
+}
+
+button {
+    position: absolute;
+    right: 20px;
+    width: 10%;
+
+}
+
+#footer {
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align:center;
+
+
+}
