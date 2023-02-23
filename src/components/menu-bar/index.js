@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 
 import {MenuBarContainer} from './styles';
 import Icon from '@mui/material/Icon';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 export default function MenuBar() { 
 
     //função que atualiza o estado do nome é o setNameValue
@@ -31,8 +34,9 @@ export default function MenuBar() {
                 </select>
                     <input type="text" name="Buscar" onChange={onChangeHandler} value={inputValue} placeholder={nameValue}></input>
                     <button type="submit" name="Buscar">buscar</button>
-                    <Icon>Star</Icon>
-                    //TODO: Adicionar mais 3 icones e um botao de cadastro usando bootstrap ou site do global styles
+                    <ShoppingCartIcon color="primary"></ShoppingCartIcon>
+                    <ChatBubbleIcon color="primary"></ChatBubbleIcon>
+                    <FavoriteIcon color="primary"></FavoriteIcon>
                 </div>
                 
             </menubar_container>
