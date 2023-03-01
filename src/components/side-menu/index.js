@@ -26,7 +26,9 @@ export default function SideMenu() {
                     <li>Papel e scrapbooking</li>
                     <li>Patchwork e costura</li>
                 </ul>
-                <button>Ver todos</button>
+            </div>
+            <div className="sidemenu-container_2">
+                <button>Ver Todos</button>
             </div>
         </SideMenuContainer>
     )
