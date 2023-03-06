@@ -3,23 +3,43 @@ import {StoriesMenuContainer} from './styles';
 
 
 export default function StoriesMenu() {
+    React.state = {
+        thumbnail: "https://th.bing.com/th/id/OIP.UGVyoTi4WnEyE59xEk94pAHaFL?pid=ImgDet&rs=1",
+        title: "STORY"
+    }
 
+    const {thumbnail, title} = React.state.useState;
 
     return(
 
-        <div className="products-container">
-            <div className="storiesmenu-container">
-                <picture>Imagem aniversário elo4</picture>
+        <div className="Products-container">
+            <div className="StoriesMenu-container">
+                <picture>Imagem aniversário elo7</picture>
             </div>
             <div className="stories-sortable-container">
                 <div className="stories-wrap-container">
                     <div className="stories-image-container">
                         <picture>
-                            <a href="#" className="story-link"></a>
+                            <div className="story-1">
+                                <img 
+                                    className="story-image"
+                                    src={thumbnail}
+                                    alt={title}
+                                >
+
+                                </img>
+                            </div>
+                            <div className="story-2">
+
+                            </div>
+                            <div className="story-3">
+                                
+                            </div>
+                            
                         </picture>
                     </div>
                     <div className="stories-editable-text-container">
-                        Texto deve ser passado por prop
+
                     </div>
                 </div>
             </div>
