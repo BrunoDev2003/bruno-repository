@@ -8,7 +8,7 @@ export default function StoriesMenu() {
         title: "STORY"
     }
 
-    const {thumbnail, title} = React.state.useState;
+    const {thumbnail, title} = useState(0);
 
     return(
 
