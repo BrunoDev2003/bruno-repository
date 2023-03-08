@@ -3,12 +3,7 @@ import {StoriesMenuContainer} from './styles';
 
 
 export default function StoriesMenu() {
-    React.state = {
-        thumbnail: "https://th.bing.com/th/id/OIP.UGVyoTi4WnEyE59xEk94pAHaFL?pid=ImgDet&rs=1",
-        title: "STORY"
-    }
-
-    const {thumbnail, title} = useState(0);
+    
 
     return(
 
@@ -20,11 +15,11 @@ export default function StoriesMenu() {
                 <div className="stories-wrap-container">
                     <div className="stories-image-container">
                         <picture>
-                            <div className="story-1">
+                            <div className="story-1" data-override-name="true">
                                 <img 
                                     className="story-image"
-                                    src={thumbnail}
-                                    alt={title}
+                                    src="https://th.bing.com/th/id/OIP.UGVyoTi4WnEyE59xEk94pAHaFL?pid=ImgDet&rs=1"
+                                    width="30%"
                                 >
 
                                 </img>
