@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {StoriesMenuContainer} from './styles';
+import Elo7Birthday from '../../../src/assets/imgs/elo7Img.png';
 
 
 export default function StoriesMenu() {
@@ -18,10 +19,10 @@ export default function StoriesMenu() {
                             <div className="story-1" data-override-name="true">
                                 <img 
                                     className="story-image"
-                                    src="https://th.bing.com/th/id/OIP.UGVyoTi4WnEyE59xEk94pAHaFL?pid=ImgDet&rs=1"
+                                    src={Elo7Birthday}
                                     width="30%"
                                 >
-
+                                    
                                 </img>
                             </div>
                             <div className="story-2">
