@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <MenuBar></MenuBar>
-      <SideMenu></SideMenu>
       <StoriesMenu></StoriesMenu>
+      <SideMenu></SideMenu>
+      
     </div>
   );
 }

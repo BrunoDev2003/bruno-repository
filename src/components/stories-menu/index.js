@@ -9,22 +9,26 @@ export default function StoriesMenu() {
     return(
 
         <div className="Products-container">
+            <StoriesMenuContainer>
+                            <div className="story-1" data-override-name="true">
+                            
+                                <img 
+                                    className="story-image"
+                                    src={Elo7Birthday}
+                                >
+                                    
+                                </img>
+                                
+                            </div>
+                            </StoriesMenuContainer>
             <div className="StoriesMenu-container">
-                <picture>Imagem aniversário elo7</picture>
+                
             </div>
             <div className="stories-sortable-container">
                 <div className="stories-wrap-container">
                     <div className="stories-image-container">
                         <picture>
-                            <div className="story-1" data-override-name="true">
-                                <img 
-                                    className="story-image"
-                                    src={Elo7Birthday}
-                                    width="30%"
-                                >
-                                    
-                                </img>
-                            </div>
+                        
                             <div className="story-2">
 
                             </div>

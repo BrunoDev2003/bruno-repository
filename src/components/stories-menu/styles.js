@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 export const StoriesMenuContainer = styled.div`
-    .story-1 {
-        border: 2px solid rgb(253, 185, 51);
-        border-radius: 50% !important;
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
+    
+
+    .story-image {
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 0rem;
+        padding-right: 22rem;
+        margin-left: 3rem;
+        margin-bottom:2rem;
+        margin-right: 40rem;
+        width:100%;
     }
 `
