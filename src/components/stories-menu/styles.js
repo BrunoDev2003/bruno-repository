@@ -17,8 +17,10 @@ export const StoriesMenuContainer = styled.div`
         display:flex;
         width: 100px;
         height: 100px;
+        color: white;
         background-color: orange;
         border-radius: 50%;
+        margin-left: 5rem;
     }
     .story2-image  {
         display: flex;

@@ -35,15 +35,25 @@ export default function StoriesMenu() {
                                 className="story2-image"
                                 src={PascoaImg}
                                     
+
                             >
                                     
                             </img>
 
                             </div>
+                            
                         </StoriesMenuContainer>
+                        <StoriesMenuContainer>
                             <div className="story-3">
-                                
+                                <img
+                                    className="story2-image"
+                                    src={PascoaImg}
+
+                                >
+                                    
+                                </img>
                             </div>
+                        </StoriesMenuContainer>
                             
                         </picture>
                     </div>
